@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mc_borderBottomCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_borderBottomCenter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_prev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_prev.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="js_min" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\js_min.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="vt_next_ie6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_next_ie6.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_tb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_tb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_rt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_rt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_nextlabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_nextlabel.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbnail\vt_thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_prev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_prev.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_prev_ie6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_prev_ie6.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_nextlabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_nextlabel.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbnail\mc_thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="publish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\publish.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_next1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_borderTopLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_borderTopLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_start.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_next32-color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_next32-color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_pause.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_start32color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_start32color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_prevlabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_prevlabel.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_ct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_ct.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_borderMiddleLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_borderMiddleLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_next32-color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_next32-color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ip_back_lr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_lr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbnail\ip_thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_lb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_lb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thambBack\mc_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_prevlabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_prevlabel.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_prev1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_prev.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_cb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_cb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_cancel48grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_cancel48grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_next32-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_next32-grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an_thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbnail\an_thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_lc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_lc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_rb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_rb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_start.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_lr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_lr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_lc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_lc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_lt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_lt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_cancel48color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_cancel48color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_pause32color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_pause32color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_borderBottomLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_borderBottomLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_borderBottomLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_borderBottomLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document_save.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_rc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_rc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_rc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_rc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_prev-32color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_prev-32color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_rt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_rt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="onsdata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onsdata.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="fb_borderTopCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_borderTopCenter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_bk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_bk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_prev-32grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_prev-32grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_cancel48grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_cancel48grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_corvers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_corvers.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_corvers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_corvers.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thambBack\bg_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_borderMiddleRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_borderMiddleRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thambBack\vt_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ct_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thambBack\ct_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_next1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_start32color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_start32color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="in_pause32color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_pause32color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_closelabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_closelabel.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_next.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_borderMiddleRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_borderMiddleRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\down_256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbnail\dg_thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="vt_borderTopRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_borderTopRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_pause32grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_pause32grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_borderTopRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_borderTopRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_next32-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_next32-grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_start32grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_start32grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document_new.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_prev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_prev.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_borderTopCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_borderTopCenter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_rc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_rc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_ start32grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_ start32grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_tb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_tb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_prev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_prev.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thambBack\fb_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thambBack\in_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_borderBottomCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_borderBottomCenter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="up_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_close.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="in_back_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_pause32grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_pause32grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_ct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_ct.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preferences_desktop_personal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\preferences_desktop_personal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_cb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_cb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_close.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_borderTopRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_borderTopRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_lb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_lb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ons_galary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ons_galary.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="dg_back_lb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_lb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_next_ie6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_next_ie6.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_navigation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_navigation.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_borderBottomRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_borderBottomRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_closelabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_closelabel.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_lt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_lt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_borderTopCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_borderTopCenter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_navigation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_navigation.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_borderBottomLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_borderBottomLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="system_config_boot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\system_config_boot.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_ct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_ct.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_prev_ie6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_prev_ie6.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_prev_ie6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_prev_ie6.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_prev-32grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_prev-32grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_borderBottomRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_borderBottomRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_cancel48color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_cancel48color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_borderBottomCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_borderBottomCenter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_corvers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_corvers.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_borderBottomRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_borderBottomRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_next_ie6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_next_ie6.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_back_lt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_css\in_back_lt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_borderMiddleRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_borderMiddleRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbnail\fb_thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_borderTopLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_borderTopLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_prev-32color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_prev-32color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_prev1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_prev.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_tb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_tb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_navigation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_navigation.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_prev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_prev.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_prev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_prev.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_borderTopLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_borderTopLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_lc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_lc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_lr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_lr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thambBack\ip_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_borderMiddleLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_borderMiddleLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_next.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc_css\mc_loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_dg_back_cb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_dg_back_cb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_pause.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_rb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_rb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_back_rb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_back_rb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ip_navigation1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ip_css\ip_navigation.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_borderMiddleLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb_css\fb_borderMiddleLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dg_back_rt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dg_css\dg_back_rt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deletered" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deletered.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vt_conposit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vt_css\vt_conposit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\downx.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upx.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

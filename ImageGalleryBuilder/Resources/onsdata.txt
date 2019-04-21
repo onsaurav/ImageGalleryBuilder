@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){ window.onsbox = new jQuery().ons_galary({autoPlay:true,borderSize:21,classNames:'vonsbox,onsbox1',descSliding:true,enableRightClick:false,enableSlideshow:true,overlayOpacity:0.7,resizeSpeed:7,slideTime:4,startZoom:true}) });

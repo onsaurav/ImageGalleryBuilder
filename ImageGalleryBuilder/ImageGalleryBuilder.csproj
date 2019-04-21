@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD077C9F-4E9C-4DD2-AD97-0C63876C2E33}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ImageGalleryBuilder</RootNamespace>
+    <AssemblyName>ImageGalleryBuilder</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>gallery.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmImageGalleryBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImageGalleryBuilder.Designer.cs">
+      <DependentUpon>frmImageGalleryBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmImageGalleryBuilder.resx">
+      <DependentUpon>frmImageGalleryBuilder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences_desktop_personal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\publish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gallery.ico" />
+    <None Include="Resources\upx.png" />
+    <None Include="Resources\downx.png" />
+    <None Include="Resources\bg.jpg" />
+    <None Include="Resources\thambBack\vt_back.png" />
+    <None Include="Resources\thambBack\mc_back.png" />
+    <None Include="Resources\thambBack\ip_back.png" />
+    <None Include="Resources\thambBack\in_back.png" />
+    <None Include="Resources\thambBack\fb_back.png" />
+    <None Include="Resources\thambBack\ct_back.png" />
+    <None Include="Resources\thambBack\bg_back.png" />
+    <None Include="Resources\system_config_boot.png" />
+    <None Include="Resources\thumbnail\dg_thumbnail.jpg" />
+    <None Include="Resources\dg_css\dg_start32color.png" />
+    <None Include="Resources\dg_css\dg_prev-32grey.png" />
+    <None Include="Resources\dg_css\dg_prev-32color.png" />
+    <None Include="Resources\dg_css\dg_prev.png" />
+    <None Include="Resources\dg_css\dg_prev.gif" />
+    <None Include="Resources\dg_css\dg_pause32grey.png" />
+    <None Include="Resources\dg_css\dg_pause32color.png" />
+    <None Include="Resources\dg_css\dg_next32-grey.png" />
+    <None Include="Resources\dg_css\dg_next32-color.png" />
+    <None Include="Resources\dg_css\dg_next.png" />
+    <None Include="Resources\dg_css\dg_next.gif" />
+    <None Include="Resources\dg_css\dg_navigation.png" />
+    <None Include="Resources\dg_css\dg_loading.gif" />
+    <None Include="Resources\dg_css\dg_dg_back_cb.png" />
+    <None Include="Resources\dg_css\dg_close.png" />
+    <None Include="Resources\dg_css\dg_cancel48grey.png" />
+    <None Include="Resources\dg_css\dg_cancel48color.png" />
+    <None Include="Resources\dg_css\dg_back_tb.png" />
+    <None Include="Resources\dg_css\dg_back_rt.png" />
+    <None Include="Resources\dg_css\dg_back_rc.png" />
+    <None Include="Resources\dg_css\dg_back_rb.png" />
+    <None Include="Resources\dg_css\dg_back_lt.png" />
+    <None Include="Resources\dg_css\dg_back_lr.png" />
+    <None Include="Resources\dg_css\dg_back_lc.png" />
+    <None Include="Resources\dg_css\dg_back_lb.png" />
+    <None Include="Resources\dg_css\dg_back_info.png" />
+    <None Include="Resources\dg_css\dg_back_ct.png" />
+    <None Include="Resources\dg_css\dg_back_corvers.png" />
+    <None Include="Resources\dg_css\dg_ start32grey.png" />
+    <None Include="Resources\dg_css.txt" />
+    <None Include="Resources\thumbnail\ip_thumbnail.jpg" />
+    <None Include="Resources\thumbnail\vt_thumbnail.jpg" />
+    <None Include="Resources\thumbnail\mc_thumbnail.jpg" />
+    <None Include="Resources\thumbnail\fb_thumbnail.jpg" />
+    <None Include="Resources\thumbnail\an_thumbnail.jpg" />
+    <None Include="Resources\vt_css\vt_prev_ie6.gif" />
+    <None Include="Resources\vt_css\vt_prev.png" />
+    <None Include="Resources\vt_css\vt_next_ie6.gif" />
+    <None Include="Resources\vt_css\vt_next.png" />
+    <None Include="Resources\vt_css\vt_loading.gif" />
+    <None Include="Resources\vt_css\vt_conposit.png" />
+    <None Include="Resources\vt_css\vt_close.png" />
+    <None Include="Resources\vt_css\vt_borderTopRight.png" />
+    <None Include="Resources\vt_css\vt_borderTopLeft.png" />
+    <None Include="Resources\vt_css\vt_borderTopCenter.png" />
+    <None Include="Resources\vt_css\vt_borderMiddleRight.png" />
+    <None Include="Resources\vt_css\vt_borderMiddleLeft.png" />
+    <None Include="Resources\vt_css\vt_borderBottomRight.png" />
+    <None Include="Resources\vt_css\vt_borderBottomLeft.png" />
+    <None Include="Resources\vt_css\vt_borderBottomCenter.png" />
+    <None Include="Resources\vt_css\vt_back.png" />
+    <None Include="Resources\mc_css\mc_start.gif" />
+    <None Include="Resources\mc_css\mc_prevlabel.gif" />
+    <None Include="Resources\mc_css\mc_prev_ie6.gif" />
+    <None Include="Resources\mc_css\mc_prev.png" />
+    <None Include="Resources\mc_css\mc_pause.gif" />
+    <None Include="Resources\mc_css\mc_nextlabel.gif" />
+    <None Include="Resources\mc_css\mc_next_ie6.gif" />
+    <None Include="Resources\mc_css\mc_next.png" />
+    <None Include="Resources\mc_css\mc_loading.gif" />
+    <None Include="Resources\mc_css\mc_closelabel.gif" />
+    <None Include="Resources\mc_css\mc_close.gif" />
+    <None Include="Resources\mc_css\mc_borderTopRight.png" />
+    <None Include="Resources\mc_css\mc_borderTopLeft.png" />
+    <None Include="Resources\mc_css\mc_borderTopCenter.png" />
+    <None Include="Resources\mc_css\mc_borderMiddleRight.png" />
+    <None Include="Resources\mc_css\mc_borderMiddleLeft.png" />
+    <None Include="Resources\mc_css\mc_borderBottomRight.png" />
+    <None Include="Resources\mc_css\mc_borderBottomLeft.png" />
+    <None Include="Resources\mc_css\mc_borderBottomCenter.png" />
+    <None Include="Resources\fb_css\fb_start.gif" />
+    <None Include="Resources\fb_css\fb_prevlabel.gif" />
+    <None Include="Resources\fb_css\fb_prev_ie6.gif" />
+    <None Include="Resources\fb_css\fb_prev.png" />
+    <None Include="Resources\fb_css\fb_pause.gif" />
+    <None Include="Resources\fb_css\fb_nextlabel.gif" />
+    <None Include="Resources\fb_css\fb_next_ie6.gif" />
+    <None Include="Resources\fb_css\fb_next.png" />
+    <None Include="Resources\fb_css\fb_loading.gif" />
+    <None Include="Resources\fb_css\fb_closelabel.gif" />
+    <None Include="Resources\fb_css\fb_close.gif" />
+    <None Include="Resources\fb_css\fb_borderTopRight.png" />
+    <None Include="Resources\fb_css\fb_borderTopLeft.png" />
+    <None Include="Resources\fb_css\fb_borderTopCenter.png" />
+    <None Include="Resources\fb_css\fb_borderMiddleRight.png" />
+    <None Include="Resources\fb_css\fb_borderMiddleLeft.png" />
+    <None Include="Resources\fb_css\fb_borderBottomRight.png" />
+    <None Include="Resources\fb_css\fb_borderBottomLeft.png" />
+    <None Include="Resources\fb_css\fb_borderBottomCenter.png" />
+    <None Include="Resources\vt_css.txt" />
+    <None Include="Resources\mc_css.txt" />
+    <None Include="Resources\fb_css.txt" />
+    <None Include="Resources\ip_css\ip_loading.gif" />
+    <None Include="Resources\ip_css\ip_prev.png" />
+    <None Include="Resources\ip_css\ip_prev.gif" />
+    <None Include="Resources\ip_css\ip_next.png" />
+    <None Include="Resources\ip_css\ip_next.gif" />
+    <None Include="Resources\ip_css\ip_navigation.png" />
+    <None Include="Resources\ip_css\ip_navigation.gif" />
+    <None Include="Resources\ip_css\ip_bk.png" />
+    <None Include="Resources\ip_css\ip_back_tb.png" />
+    <None Include="Resources\ip_css\ip_back_rt.png" />
+    <None Include="Resources\ip_css\ip_back_rc.png" />
+    <None Include="Resources\ip_css\ip_back_rb.png" />
+    <None Include="Resources\ip_css\ip_back_lt.png" />
+    <None Include="Resources\ip_css\ip_back_lr.png" />
+    <None Include="Resources\ip_css\ip_back_lc.png" />
+    <None Include="Resources\ip_css\ip_back_lb.png" />
+    <None Include="Resources\ip_css\ip_back_ct.png" />
+    <None Include="Resources\ip_css\ip_back_corvers.png" />
+    <None Include="Resources\ip_css\ip_back_cb.png" />
+    <None Include="Resources\ip_css.txt" />
+    <None Include="Resources\in_css\in_start32grey.png" />
+    <None Include="Resources\in_css\in_start32color.png" />
+    <None Include="Resources\in_css\in_prev-32grey.png" />
+    <None Include="Resources\in_css\in_prev-32color.png" />
+    <None Include="Resources\in_css\in_prev.png" />
+    <None Include="Resources\in_css\in_pause32grey.png" />
+    <None Include="Resources\in_css\in_pause32color.png" />
+    <None Include="Resources\in_css\in_next32-grey.png" />
+    <None Include="Resources\in_css\in_next32-color.png" />
+    <None Include="Resources\in_css\in_next.png" />
+    <None Include="Resources\in_css\in_navigation.png" />
+    <None Include="Resources\in_css\in_loading.gif" />
+    <None Include="Resources\in_css\in_close.png" />
+    <None Include="Resources\in_css\in_cancel48grey.png" />
+    <None Include="Resources\in_css\in_cancel48color.png" />
+    <None Include="Resources\in_css\in_back_tb.png" />
+    <None Include="Resources\in_css\in_back_rt.png" />
+    <None Include="Resources\in_css\in_back_rc.png" />
+    <None Include="Resources\in_css\in_back_rb.png" />
+    <None Include="Resources\in_css\in_back_lt.png" />
+    <None Include="Resources\in_css\in_back_lr.png" />
+    <None Include="Resources\in_css\in_back_lc.png" />
+    <None Include="Resources\in_css\in_back_lb.png" />
+    <None Include="Resources\in_css\in_back_info.png" />
+    <None Include="Resources\in_css\in_back_ct.png" />
+    <None Include="Resources\in_css\in_back_corvers.png" />
+    <None Include="Resources\in_css\in_back_cb.png" />
+    <None Include="Resources\in_css.txt" />
+    <None Include="Resources\onsdata.txt" />
+    <None Include="Resources\ons_galary.txt" />
+    <None Include="Resources\js_min.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
